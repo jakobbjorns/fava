@@ -129,11 +129,6 @@
   background-color: var(--entry-background);
 }
 
-.journal .indicators,
-.journal .description,
-.journal p > .num {
-  background-color: var(--entry-background);
-}
 
 .journal .datecell {
   width: 5.5rem;
@@ -274,7 +269,6 @@
   }
 
   .journal p > .num {
-    flex-grow: 1;
     order: 4;
   }
 
@@ -301,5 +295,24 @@
     display: inline;
   }
 
+  .journal .balance > p > .num,
+  .journal .budget > p > .description > .num {
+    position: absolute;
+    right: 1rem;
+    width: 40%;
+  }
 
+  .journal .budget .description > .num {
+    display: block;
+    margin-top: -3.7rem;
+  }
+
+  .journal .budget > p > .description > .num {
+    background: var(--background);
+  }
+
+  .journal .custom > p,
+  .journal .balance > p {
+    border-top: thin solid var(--entry-background);
+  }
 }
