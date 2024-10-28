@@ -239,6 +239,10 @@
 }
 
 @media (width <= 767px) {
+  article {
+    padding: 1rem;
+  }
+
   .flex-table.journal p {
     flex-wrap: wrap;
   }
