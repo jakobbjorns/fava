@@ -241,9 +241,15 @@
     flex-wrap: wrap;
   }
 
+  .journal .head .flag {
+    flex-grow: 1;
+    text-align: left;
+  }
+
   .journal .datecell {
     order: 1;
     width: 6rem;
+    text-align: left;
   }
 
   .journal .flag {
@@ -279,6 +285,7 @@
   .journal .postings .description {
     order: inherit;
     width: inherit;
+    flex-grow: 1;
   }
 
   .journal .indicators span {
