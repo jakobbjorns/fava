@@ -283,9 +283,9 @@
   }
 
   .journal .postings .description {
+    flex-grow: 1;
     order: inherit;
     width: inherit;
-    flex-grow: 1;
   }
 
   .journal .indicators span {
