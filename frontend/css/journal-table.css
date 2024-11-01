@@ -321,4 +321,9 @@
   .journal .balance > p {
     border-top: thin solid var(--entry-background);
   }
+
+  .journal .metadata dt,
+  .journal .metadata dd {
+    margin-left: initial;
+  }
 }
